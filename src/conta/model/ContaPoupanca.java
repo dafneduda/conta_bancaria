@@ -5,8 +5,9 @@ public class ContaPoupanca extends Conta {
 	//Dia do aniversário da Conta Poupança
 	private int aniversario;
 
-	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo) {
+	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
 		super(numero, agencia, tipo, titular, saldo);
+		this.aniversario = aniversario;
 	}
 
 	public int getAniversario() {
