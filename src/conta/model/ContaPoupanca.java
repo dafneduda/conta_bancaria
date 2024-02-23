@@ -1,7 +1,8 @@
 package conta.model;
 
 public class ContaPoupanca extends Conta {
-
+	
+	//Dia do aniversário da Conta Poupança
 	private int aniversario;
 
 	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo) {

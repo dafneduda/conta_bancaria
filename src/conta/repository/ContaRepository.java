@@ -7,7 +7,7 @@ public interface ContaRepository {
 	// Métodos do CRUD (Create, Read, Update e Delete) da classe Conta
 	public void procurarPorNumero(int numero);
 	public void listarContas();
-	public void criar(Conta conta);
+	public void cadastrar(Conta conta);
 	public void atualizar(Conta conta);
 	public void apagar(int numero);
 
